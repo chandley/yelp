@@ -3,6 +3,9 @@ source 'https://rubygems.org'
 gem 'omniauth-facebook'
 gem 'paperclip'
 gem 'devise'
+gem 'aws-sdk'
+gem 'aws-s3'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.8'
 # Use postgresql as the database for Active Record
