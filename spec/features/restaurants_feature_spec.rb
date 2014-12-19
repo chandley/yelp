@@ -45,6 +45,16 @@ feature 'restaurants' do
       expect(current_path).to eq '/restaurants'
     end
 
+    it 'shows uploaded restaurant image' do
+      visit '/restaurants'
+      sign_in_example_user
+      click_link 'Add a restaurant'
+      fill_in 'Name', with: 'KFC'
+      attach_file 'Image', File.join(Rails.root, 'spec', 'fixtures', 'files', 'cat.jpg')
+      click_button 'Create Restaurant'
+      expect(page).to have_css("img[alt='Cat']")
+    end
+
 
   end
 
