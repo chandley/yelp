@@ -1,6 +1,6 @@
-# Repo name
+# Yelp
 
-[![Test Coverage](https://codeclimate.com/github/chandley/yekp/badges/coverage.svg)](https://codeclimate.com/github/chandley/yelp)
+[![Test Coverage](https://codeclimate.com/github/chandley/yelp/badges/coverage.svg)](https://codeclimate.com/github/chandley/yelp)
 [![Code Climate](https://codeclimate.com/github/chandley/yelp/badges/gpa.svg)](https://codeclimate.com/github/chandley/yelp)
 
 ## Summary
